@@ -7,3 +7,8 @@ This is a self-learning program using ReactJS.
 
 ## 2020-02-01
 **NOTE : Found problem when integrating bootstrap to react manually where bootstrap js not working in react. Considering react with available template styling by default such as reactstrap.**
+- [x] Learn how to create react template using ```bash npm```.
+	```bash
+	npm create-react-app
+	```
+- [] Learn how reactstrap works.
