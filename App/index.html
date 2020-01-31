@@ -2,14 +2,20 @@
 <html>
 <head>
 	<title>React Exercise</title>
-	<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-	<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<!-- 	<script crossorigin src="https://unpkg.com/react@16/umd/react.production.js"></script>
+	<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.js"></script> -->
+	<script src="../Assets/js/react.production.min.js"></script>
+	<script src="../Assets/js/react-dom.production.min.js"></script>
 	<script crossorigin src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+	<script crossorigin src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
 </head>
 <body>
 	<div id="header_app"></div>
 	<div id="main_app"></div>
 	<div id="footer_app"></div>
 </body>
-<script type="text/babel" src="./index.js"></script>
+<script type="text/babel" src="../Assets/js/header.js"></script>
+<script type="text/babel" src="../Assets/js/main.js"></script>
+<script type="text/babel" src="../Assets/js/footer.js"></script>
+<script type="text/babel" src="../Assets/js/index.js"></script>
 </html>
